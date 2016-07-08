@@ -4,6 +4,6 @@ public class Adapter extends MySystem{
 		myLogSystem = new MyLogSystem();
 	}
 	public void showLog(){
-		System.out.println(myLogSystem.getData(value));
+		myLogSystem.showData(value);
 	}
 }
