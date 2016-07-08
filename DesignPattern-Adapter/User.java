@@ -1,6 +1,7 @@
 public class User{
 	public static void main(String args[]){
-		Phone phone = new Adapter();
-		phone.showDataFromPhone("hello world");
+		MySystem mySystem = new Adapter();
+		mySystem.setValue(5);
+		mySystem.showLog();
 	}
 }

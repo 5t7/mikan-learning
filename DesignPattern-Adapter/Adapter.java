@@ -1,9 +1,9 @@
-public class Adapter extends Phone{
-	private Display display;
+public class Adapter extends MySystem{
+	private MyLogSystem myLogSystem;
 	public Adapter(){
-		display = new Display();
+		myLogSystem = new MyLogSystem();
 	}
-	public void showDataFromPhone(String str){
-		display.showDataOnDisplay(str);
+	public void showLog(){
+		System.out.println(myLogSystem.getData(value));
 	}
 }
